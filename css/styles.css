@@ -1,5 +1,7 @@
 /* line 1, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 body {
-  font-family: 'Helvetica'; }
+  font-family: 'Helvetica';
+  margin: 0 auto;
+  max-width: 1020px; }
 
 /*# sourceMappingURL=styles.css.map */

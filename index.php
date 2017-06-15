@@ -3,11 +3,11 @@
 
 <head>
     <!--
-    WILDERNESS by Lise Andersen
+    WILDERNESS BLOG by Lise Andersen
     PLEASE DO NOT REMOVE THE CREDIT OR REDISTRIBUTE AS YOUR OWN!
     -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Wilderness | Index</title>
     <!-- Stylesheet -->
     <link href="css/styles.css" rel="stylesheet">
@@ -21,7 +21,8 @@
 <body>
     <!-- header start -->
     <header><img src="images/header_img.jpg" alt="header"></header>
-    <!-- header slut -->
+    <!-- header end -->
+    <!-- navigation start -->
     <nav>
         <ul>
             <li>home</li>
@@ -30,24 +31,46 @@
             <li>log ind</li>
         </ul>
     </nav>
+    <!-- navigation end -->
+    <!-- main content start -->
     <main>
+        <!-- static articles start -->
         <article>
-            <h2></h2><img src="images/laenestol.jpg" alt="laenestol-article-img"></article>
+            <h2></h2><img src="images/laenestol.jpg" alt="laenestol-article-img">
+            <p>
+                <!-- poster & day of posting -->
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+            <hr> </article>
         <article>
-            <h2></h2><img src="images/mit_plante_eksperiment.jpg" alt="plante-eksperiment-article-img"></article>
+            <h2></h2><img src="images/mit_plante_eksperiment.jpg" alt="plante-eksperiment-article-img">
+            <p>
+                <!-- poster & day of posting -->
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+            <hr> </article>
         <article>
-            <h2></h2><img src="images/urban_jungle_make-over.jpg" alt="urban-jungle-article-img"></article>
-        <aside><img src="" alt="">
-            <p></p>
+            <h2></h2><img src="images/urban_jungle_make-over.jpg" alt="urban-jungle-article-img">
+            <p>
+                <!-- poster & day of posting -->
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+        </article>
+        <!-- static articles end -->
+        <!-- sidebar start -->
+        <aside><img src="images/frk_overspringshandling.jpg" alt="sidebar-img">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae autem ipsa incidunt sed molestias. Veritatis deleniti ad minima facere dolorum animi earum, in atque molestiae pariatur, odit dolores corporis!</p>
             <hr>
-            <!-- instagram, facebook, flickr, linkedIn ikoner her -->
+            <!-- social media icons start --><i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-flickr" aria-hidden="true"></i> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <!-- social media icons end -->
         </aside>
+        <!-- sidebar end -->
     </main>
-    <footer>&copy; 2017 - wilderness</footer>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- JavaScript (for Bootstrap) -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- main content end -->
+    <!-- footer start -->
+    <footer>
+        <hr> &copy; 2017 - wilderness</footer>
+    <!-- footer end -->
 </body>
 
 </html>
