@@ -9,43 +9,44 @@ body {
   width: 100%;
   max-width: 1020px; }
 
-/* line 18, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 12, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+hr {
+  color: #ccc; }
+
+/* line 22, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 nav li {
   font-size: 12px;
   display: inline-block;
   list-style: none; }
 
-/* line 23, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 27, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 nav a {
   float: none;
   text-transform: uppercase;
   text-decoration: none; }
 
-/* line 30, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 34, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .login {
   float: right !important; }
 
-/* line 36, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 40, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main h2 {
   font-size: 20px;
   max-width: 100%;
   text-transform: uppercase; }
 
-/* line 41, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 45, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main p {
   font-size: 12px; }
 
-/* line 44, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 48, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main img {
   max-width: 70%;
   margin: 0 auto; }
 
-/* line 51, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 55, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 footer {
   text-align: center;
   text-transform: uppercase; }
-  /* line 54, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
-  footer hr {
-    opacity: 0.5; }
 
 /*# sourceMappingURL=styles.css.map */

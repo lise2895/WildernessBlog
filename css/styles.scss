@@ -9,6 +9,10 @@ body {
     max-width: 1020px;
 }
 
+hr {
+    color: #ccc;
+}
+
 header {
     img {}
 }
@@ -51,7 +55,4 @@ main {
 footer {
     text-align: center;
     text-transform: uppercase;
-    hr {
-        opacity: 0.5;
-    }
 }
