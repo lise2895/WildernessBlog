@@ -11,6 +11,7 @@
     <title>Wilderness | Login</title>
     <!-- Stylesheet -->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/login-styles.css" rel="stylesheet">
     <!-- HTML5 Boilerplates normalize -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- FlexBox Grid -->
@@ -18,35 +19,46 @@
 
 <body>
     <!-- header start -->
-    <header><img src="images/header_img.jpg" alt="header"></header>
-    <!-- header end -->
-    <!-- navigation start -->
-    <nav>
-        <ul>
-            <li>home</li>
-            <li>planter</li>
-            <li>indretning</li>
-            <li>log ind</li>
-        </ul>
-    </nav>
-    <!-- navigation end -->
-    <div>
-        <h4>Log ind</h4>
-        <div>
-            <form>
-                <div>
-                    <label for="email">Brugernavn:</label>
-                    <input type="email" id="email" placeholder="Indtast dit brugernavn"> </div>
-                <div>
-                    <label for="pwd">Password:</label>
-                    <input type="password" id="password" placeholder="Indtast dit password"> </div>
-                <button type="submit">Log ind</button>
-            </form>
+    <div class="main-container">
+        <div class="container">
+            <div class="row center-xs col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <header><img src="images/header_img.jpg" alt="header"></header>
+            </div>
         </div>
+        <!-- header end -->
+        <!-- navigation start -->
+        <div class="row-center col-xs-12 nav-horizon">
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">planter</a></li>
+                    <li><a href="">indretning</a></li>
+                    <li class="login"><a href="">log ind</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navigation end -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 start-xs page-bottom">
+            <h4>Log ind</h4>
+            <div>
+                <form>
+                    <div>
+                        <label for="email">Brugernavn:</label>
+                        <input type="email" id="email" placeholder="Indtast dit brugernavn"> </div>
+                    <div>
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="password" placeholder="Indtast dit password"> </div>
+                    <button type="submit">Log ind</button>
+                </form>
+            </div>
+        </div>
+        <!-- footer start -->
+        <footer>
+            <hr>
+            <p>&copy; 2017 - wilderness</p>
+        </footer>
+        <!-- footer end -->
     </div>
-    <!-- footer start -->
-    <footer>&copy; 2017 - wilderness</footer>
-    <!-- footer end -->
 </body>
 
 </html>

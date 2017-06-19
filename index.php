@@ -88,8 +88,8 @@
             <hr>
             <p>&copy; 2017 - wilderness</p>
         </footer>
+        <!-- footer end -->
     </div>
-    <!-- footer end -->
 </body>
 
 </html>
