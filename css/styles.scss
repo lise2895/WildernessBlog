@@ -1,5 +1,57 @@
 body {
     font-family: 'Helvetica';
+    margin: 0 auto !important;
+}
+
+.main-container {
     margin: 0 auto;
+    width: 100%;
     max-width: 1020px;
+}
+
+header {
+    img {}
+}
+
+nav {
+    ul {}
+    li {
+        font-size: 12px;
+        display: inline-block;
+        list-style: none;
+    }
+    a {
+        float: none;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+.login {
+    float: right !important;
+}
+
+main {
+    article {}
+    h2 {
+        font-size: 20px;
+        max-width: 100%;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 12px;
+    }
+    img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    aside {}
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    hr {
+        opacity: 0.5;
+    }
 }
