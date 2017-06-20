@@ -11,7 +11,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) { ?>
     <article class="start-xs">
         <h2><?php echo $row['heading'] ?></h2> <img src="images/<?php echo $row['imgSrc'] ?>.jpg" alt="<?php echo $row['imgAlt'] ?>">
         <!-- poster & day of posting -->
-        <p> Skrevet af <a href="#">Line</a>,
+        <p class="date"> Skrevet af <a href="#">Line</a>,
             <?php echo date("d-m-Y") ?>
         </p>
         <p>

@@ -9,7 +9,7 @@ $articleText = $_POST['articleText'];
 require_once "connect.php";
 
 /* forberedelse før variabler sendes til DB */
-$statement = $dbh->prepare("INSERT INTO posts (imgSrc, imgAlt, heading, time, articleText) values(?, ?, ?, ?, ?) ");
+$statement = $dbh->prepare("INSERT INTO posts (imgSrc, imgAlt, heading, articleText) values(?, ?, ?, ?) ");
 
 /* binding til spørgsmålstegn i ovenstående statement til DB */
 $statement->bindParam(1, $imgSrc);

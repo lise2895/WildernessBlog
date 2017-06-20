@@ -40,17 +40,17 @@
         <!-- navigation end -->
         <div class="page-padding">
             <div>
-                <form>
+                <form action="checkUser.php" method="post">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <label for="username">Brugernavn</label>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <input type="text" id="username" placeholder="Indtast dit brugernavn"> </div>
+                        <input type="text" id="username" placeholder="Indtast dit brugernavn" name="formUsername"> </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <label for="pwd">Password</label>
+                        <label for="pass">Password</label>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <input type="password" id="pwd" placeholder="Indtast dit password"> </div>
+                        <input type="password" id="pass" placeholder="Indtast dit password" name="formPassword"> </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-prop">
                         <button type="submit">Log ind</button>
                     </div>

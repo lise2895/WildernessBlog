@@ -43,31 +43,34 @@ nav {
     float: none;
     font-size: 12px;
     display: inline-block;
-    list-style: none; }
-  /* line 53, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+    list-style: none;
+    text-transform: uppercase;
+    color: #777;
+    letter-spacing: 1px; }
+  /* line 56, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   nav a {
     letter-spacing: 1px;
     color: #777;
     float: none;
     text-transform: uppercase;
     text-decoration: none; }
-  /* line 60, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+  /* line 63, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   nav li:hover {
     background-color: #e7e7e7;
     transition: 0.3s; }
 
-/* line 66, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 69, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .login {
   float: right !important; }
 
 /* post form */
-/* line 73, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 76, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .form-padding {
   padding-bottom: 0.5%;
   padding-top: 0.5%; }
 
 /* labels */
-/* line 81, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 84, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 label {
   display: inline-block;
   font-weight: bold;
@@ -75,7 +78,7 @@ label {
   padding-top: 0.5%; }
 
 /* input */
-/* line 91, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 94, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 input {
   width: 100% !important;
   border: solid #c2c2c2 1px;
@@ -83,7 +86,7 @@ input {
   padding: 1%; }
 
 /* button */
-/* line 101, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 104, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .button-prop {
   background-color: white;
   color: #000000;
@@ -94,74 +97,74 @@ input {
   text-decoration: none;
   max-width: 15%; }
 
-/* line 112, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 115, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .button-pad {
   padding-top: 2%;
   padding-bottom: 1%; }
 
 /* main content */
-/* line 121, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 124, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main aside {
   color: #333333; }
 
-/* line 124, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 127, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main i {
   padding-top: 20px; }
 
-/* line 128, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 131, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main h2 {
   font-size: 20px;
   max-width: 100%;
   text-transform: uppercase; }
 
-/* line 133, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 136, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main p {
   color: #333333;
   font-size: 12px;
   padding-bottom: 10px; }
 
-/* line 138, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 141, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main img {
   width: 100%;
   margin: 0 auto; }
 
-/* line 142, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 145, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 main a {
   text-decoration: none;
   color: #333333 !important; }
 
-/* line 148, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 151, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 .date {
   color: #ccc;
   text-transform: uppercase; }
 
 /* footer */
-/* line 156, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+/* line 159, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
 footer {
   text-align: center;
   text-transform: uppercase; }
 
 /* media queries */
 @media only screen and (min-width: 26em) {
-  /* line 165, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+  /* line 168, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   body {
     padding-left: 2.5%;
     padding-right: 2.5%; } }
 
 @media only screen and (min-width: 48em) {
-  /* line 172, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+  /* line 175, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   body {
     padding-left: 2.5%;
     padding-right: 2.5%; } }
 
 @media only screen and (min-width: 62em) {
-  /* line 179, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+  /* line 182, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   body {
     padding-left: 2.5%;
     padding-right: 2.5%; } }
 
 @media only screen and (min-width: 75em) {
-  /* line 186, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
+  /* line 189, ../../xampp/htdocs/WildernessBlog/css/styles.scss */
   body {
     padding-left: 1%;
     padding-right: 1%; } }
