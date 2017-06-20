@@ -197,11 +197,11 @@ button {
   font-size: 16px;
   background-color: #ffffff;
   padding: 5px 10px 5px 10px;
-  border: solid #c2c2c2 1px;
   text-decoration: none; }
 
-/* line 46, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
+/* line 45, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
 .button-prop {
+  border: none !important;
   padding-top: 1%; }
 
 /*# sourceMappingURL=login-styles.css.map */

@@ -39,21 +39,23 @@
         </div>
         <!-- navigation end -->
         <div class="page-padding">
-            <form>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <label for="username">Brugernavn</label>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <input type="text" id="username" placeholder="Indtast dit brugernavn"> </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <label for="pwd">Password</label>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <input type="password" id="pwd" placeholder="Indtast dit password"> </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-prop">
-                    <button type="submit">Log ind</button>
-                </div>
-            </form>
+            <div>
+                <form>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label for="username">Brugernavn</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="text" id="username" placeholder="Indtast dit brugernavn"> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label for="pwd">Password</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="password" id="pwd" placeholder="Indtast dit password"> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-prop">
+                        <button type="submit">Log ind</button>
+                    </div>
+                </form>
+            </div>
         </div>
         <!-- footer start -->
         <footer>

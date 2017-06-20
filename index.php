@@ -95,21 +95,19 @@
                         <article class="start-xs">
                             <h2>vores nye lænestol i egetræ og kernelæder</h2><img src="images/laenestol.jpg" alt="laenestol-article-img">
                             <!-- poster & day of posting -->
-                            <p> Skrevet af <a href="#">Line</a>, den 24. august, 2017 </p>
+                            <p class="date"> Skrevet af <a href="#">Line</a>, den 24. august, 2017</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
                             <hr> </article>
                         <article class="start-xs">
                             <h2>mit plante eksperiment</h2><img src="images/mit_plante_eksperiment.jpg" alt="plante-eksperiment-article-img">
-                            <p>
-                                <!-- poster & day of posting -->
-                            </p>
+                            <!-- poster & day of posting -->
+                            <p class="date"> Skrevet af <a href="#">Line</a>, den 1. oktober, 2017</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
                             <hr> </article>
                         <article class="start-xs">
                             <h2>min urban jungle baggårds make-over</h2><img src="images/urban_jungle_make-over.jpg" alt="urban-jungle-article-img">
-                            <p>
-                                <!-- poster & day of posting -->
-                            </p>
+                            <!-- poster & day of posting -->
+                            <p class="date"> Skrevet af <a href="#">Line</a>, den 19. oktober, 2017</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
                         </article>
                 </div>

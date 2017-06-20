@@ -39,10 +39,10 @@ button {
     font-size: 16px;
     background-color: #ffffff;
     padding: 5px 10px 5px 10px;
-    border: solid #c2c2c2 1px;
     text-decoration: none;
 }
 
 .button-prop {
+    border: none !important;
     padding-top: 1%;
 }
