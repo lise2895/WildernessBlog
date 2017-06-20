@@ -31,10 +31,10 @@
         <div class="row-center col-xs-12 nav-horizon">
             <nav>
                 <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">planter</a></li>
-                    <li><a href="">indretning</a></li>
-                    <li class="login"><a href="">log ind</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">planter</a></li>
+                    <li><a href="#">indretning</a></li>
+                    <li class="login"><a href="login.php">log ind</a></li>
                 </ul>
             </nav>
         </div>
@@ -59,9 +59,8 @@
                     <!-- static articles start -->
                     <article class="start-xs">
                         <h2>vores nye lænestol i egetræ og kernelæder</h2><img src="images/laenestol.jpg" alt="laenestol-article-img">
-                        <p>
-                            <!-- poster & day of posting -->
-                        </p>
+                        <!-- poster & day of posting -->
+                        <p> Skrevet af <a href="#">Line</a>, den 24. august, 2017 </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
                         <hr> </article>
                     <article class="start-xs">

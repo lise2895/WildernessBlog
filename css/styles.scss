@@ -81,6 +81,15 @@ main {
         width: 100%;
         margin: 0 auto;
     }
+    a {
+        text-decoration: none;
+        color: #333333 !important;
+    }
+}
+
+.date {
+    color: #ccc;
+    text-transform: uppercase;
 }
 
 footer {

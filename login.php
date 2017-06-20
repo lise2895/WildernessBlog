@@ -30,25 +30,30 @@
         <div class="row-center col-xs-12 nav-horizon">
             <nav>
                 <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">planter</a></li>
-                    <li><a href="">indretning</a></li>
-                    <li class="login"><a href="">log ind</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">planter</a></li>
+                    <li><a href="#">indretning</a></li>
+                    <li class="login"><a href="login.php">log ind</a></li>
                 </ul>
             </nav>
         </div>
         <!-- navigation end -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 start-xs page-bottom">
-            <h4>Log ind</h4>
+        <div class="page-padding">
             <div>
                 <form>
-                    <div>
-                        <label for="email">Brugernavn:</label>
-                        <input type="email" id="email" placeholder="Indtast dit brugernavn"> </div>
-                    <div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label for="username">Brugernavn:</label>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="text" id="username" placeholder="Indtast dit brugernavn"> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <label for="pwd">Password:</label>
-                        <input type="password" id="password" placeholder="Indtast dit password"> </div>
-                    <button type="submit">Log ind</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <input type="password" id="pwd" placeholder="Indtast dit password"> </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-prop">
+                        <button type="submit">Log ind</button>
+                    </div>
                 </form>
             </div>
         </div>
