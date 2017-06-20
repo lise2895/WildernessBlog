@@ -138,9 +138,10 @@ label {
 input {
   width: 100%;
   border: solid #c2c2c2 1px;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 0.5%; }
 
-/* line 20, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
+/* line 21, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
 button {
   background-color: white;
   color: #000000;
@@ -150,7 +151,7 @@ button {
   border: solid #c2c2c2 1px;
   text-decoration: none; }
 
-/* line 30, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
+/* line 31, ../../xampp/htdocs/WildernessBlog/css/login-styles.scss */
 .button-prop {
   padding-top: 1%; }
 
