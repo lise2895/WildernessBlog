@@ -56,27 +56,62 @@
                 </div>
                 <!-- sidebar end -->
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 center-xs">
-                    <!-- static articles start -->
-                    <article class="start-xs">
-                        <h2>vores nye lænestol i egetræ og kernelæder</h2><img src="images/laenestol.jpg" alt="laenestol-article-img">
-                        <!-- poster & day of posting -->
-                        <p> Skrevet af <a href="#">Line</a>, den 24. august, 2017 </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
-                        <hr> </article>
-                    <article class="start-xs">
-                        <h2>mit plante eksperiment</h2><img src="images/mit_plante_eksperiment.jpg" alt="plante-eksperiment-article-img">
-                        <p>
+                    <!-- form til nye artikler -->
+                    <!-- <div class="form-padding">
+                        <form action="insert.php" method="post">
+                            <div class="start-xs">
+                                <h2>opret et nyt indlæg</h2>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <label class="post-label" for="heading">Titel</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <input class="post-input" id="heading" type="text" name="heading" placeholder="Titel på dit indlæg"> </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <label class="post-label" for="imgSrc">Billednavn</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <input class="post-input" id="imgSrc" type="text" name="imgSrc" placeholder="Navn på billede uden .jpg"> </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <label class="post-label" for="imgAlt">Billede alt tekst</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <input class="post-input" id="imgAlt" type="text" name="imgAlt" placeholder="Billedets alt tekst"> </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <label class="post-label" for="articleText">Indlægets tekst</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                                    <input class="post-input" id="articleText" type="text" name="articleText" placeholder="Indlægets tekst"> </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 button-pad">
+                                    <input class="button-prop" type="submit" value="Indsæt" content="Udgiv indlæg"> </div>
+                            </div>
+                        </form>
+                    </div> -->
+                    <!-- break til opdeling fra form og artikler -->
+                    <!-- <hr>  -->
+                    <!-- dynamic articles start -->
+                    <?php include "fetchDb.php"; ?>
+                        <!-- dynamic articles end -->
+                        <!-- static articles start -->
+                        <article class="start-xs">
+                            <h2>vores nye lænestol i egetræ og kernelæder</h2><img src="images/laenestol.jpg" alt="laenestol-article-img">
                             <!-- poster & day of posting -->
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
-                        <hr> </article>
-                    <article class="start-xs">
-                        <h2>min urban jungle baggårds make-over</h2><img src="images/urban_jungle_make-over.jpg" alt="urban-jungle-article-img">
-                        <p>
-                            <!-- poster & day of posting -->
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
-                    </article>
+                            <p> Skrevet af <a href="#">Line</a>, den 24. august, 2017 </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+                            <hr> </article>
+                        <article class="start-xs">
+                            <h2>mit plante eksperiment</h2><img src="images/mit_plante_eksperiment.jpg" alt="plante-eksperiment-article-img">
+                            <p>
+                                <!-- poster & day of posting -->
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+                            <hr> </article>
+                        <article class="start-xs">
+                            <h2>min urban jungle baggårds make-over</h2><img src="images/urban_jungle_make-over.jpg" alt="urban-jungle-article-img">
+                            <p>
+                                <!-- poster & day of posting -->
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem pariatur fuga suscipit natus distinctio molestiae, ab reiciendis error dolor recusandae voluptatibus eaque, at nulla ut, molestias vero animi sapiente.</p>
+                        </article>
                 </div>
                 <!-- static articles end -->
             </div>

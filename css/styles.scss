@@ -1,3 +1,5 @@
+/* general */
+
 body {
     font-family: 'Helvetica';
     margin: 0 auto !important;
@@ -14,12 +16,18 @@ hr {
     margin: 0px;
 }
 
+
+/* header */
+
 header {
     img {
         width: 100%;
         height: auto;
     }
 }
+
+
+/* navigation */
 
 .nav-horizon {
     max-width: 1020px !important;
@@ -59,6 +67,56 @@ nav {
     float: right !important;
 }
 
+
+/* post form */
+
+.form-padding {
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+
+/* labels */
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+
+/* input */
+
+input {
+    width: 100% !important;
+    border: solid #c2c2c2 1px;
+    font-size: 16px;
+    padding: 1%;
+}
+
+
+/* button */
+
+.button-prop {
+    background-color: white;
+    color: #000000;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    border: solid #c2c2c2 1px;
+    text-decoration: none;
+    max-width: 15%;
+}
+
+.button-pad {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+
+/* main content */
+
 main {
     aside {
         color: #333333;
@@ -91,6 +149,9 @@ main {
     color: #ccc;
     text-transform: uppercase;
 }
+
+
+/* footer */
 
 footer {
     text-align: center;
