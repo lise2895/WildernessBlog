@@ -30,7 +30,7 @@
         <div class="row-center col-xs-12 nav-horizon">
             <nav>
                 <ul>
-                    <li><a href="#">home</a></li>
+                    <li><a href="index.php">home</a></li>
                     <li><a href="#">planter</a></li>
                     <li><a href="#">indretning</a></li>
                     <li class="login"><a href="login.php">log ind</a></li>
