@@ -51,9 +51,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <input type="password" id="pass" placeholder="Indtast dit password" name="formPassword"> </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-prop">
-                        <button type="submit">Log ind</button>
-                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 button-pad">
+                        <input class="button-prop" type="submit" value="Log ind" content="Log ind"> </div>
                 </form>
             </div>
         </div>

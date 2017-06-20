@@ -24,7 +24,7 @@ label {
 /* input */
 
 input {
-    width: 100%;
+    width: 100% !important;
     border: solid #c2c2c2 1px;
     font-size: 16px;
     padding: 0.5%;
@@ -33,16 +33,17 @@ input {
 
 /* button */
 
-button {
-    background-color: white;
+.button-prop {
     color: #000000;
     font-size: 16px;
     background-color: #ffffff;
     padding: 5px 10px 5px 10px;
+    border: solid #c2c2c2 1px;
     text-decoration: none;
+    max-width: 15%;
 }
 
-.button-prop {
-    border: none !important;
-    padding-top: 1%;
+.button-pad {
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
